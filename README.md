@@ -25,6 +25,6 @@ Before starting my MS at PSU, I was a **Senior Systems Engineer at Infosys**. I 
 ### Get in touch
 * **LinkedIn:** [linkedin.com/in/vinodhraju](https://www.linkedin.com/in/vinodhraju/)
 * **Email:** [vinodh@pdx.edu](mailto:vinodh@pdx.edu)
-* **Portfolio:** [vinodh-raju.github.io](https://vinodh-raju.github.io)
+* **Portfolio:** [vinodh-raju.github.io](https://VinodhRaju05.github.io)
 
 *I’m currently looking for Software Engineering or Cloud/DevOps internship opportunities for 2026. Let's build something scalable.*
