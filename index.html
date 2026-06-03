@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinodh Raju | CS Engineer & Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#hero">VR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero-section" id="hero">
+        <div class="hero-bg-shape"></div>
+        <div class="hero-bg-shape2"></div>
+        <canvas id="networkCanvas"></canvas>
+        <div class="container">
+          <div class="row align-items-center min-vh-100">
+            <div class="col-lg-7 hero-text">
+              <h1 class="hero-title">Hi, I'm <span>Vinodh</span><br />Raju</h1>
+              <p class="hero-subtitle" id="typedText">
+                Network & Security Engineer
+              </p>
+              <p class="hero-desc">
+                M.S. Computer Science candidate at Portland State University
+                with a background spanning enterprise networking, cloud
+                infrastructure, cybersecurity, data engineering, and full-stack
+                web development. I build things that are secure, scalable.
+              </p>
+              <div class="hero-badges">
+                <span class="badge-pill">Networking</span>
+                <span class="badge-pill">Cloud</span>
+                <span class="badge-pill">Cybersecurity</span>
+                <span class="badge-pill">Python</span>
+                <span class="badge-pill">Data Engineering</span>
+                <span class="badge-pill">Web Dev</span>
+              </div>
+              <div class="hero-cta">
+                <a href="#projects" class="btn-main">View Projects</a>
+                <a href="#contact" class="btn-ghost">Get in Touch</a>
+              </div>
+              <div class="hero-social">
+                <a
+                  href="https://www.linkedin.com/in/vinodhraju"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  href="https://github.com/VinodhRaju05"
+                  target="_blank"
+                  aria-label="GitHub"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a href="mailto:vinodhreddy058@gmail.com" aria-label="Email"
+                  ><i class="bi bi-envelope"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-5 hero-img-col">
+              <div class="hero-img-wrapper">
+                <img
+                  src="images/profile.jpg"
+                  alt="Vinodh Raju smiling outdoors on campus"
+                  class="hero-img"
+                />
+                <div class="hero-img-card">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Engineer & Developer</span>
+                </div>
+                <div class="hero-img-card2">
+                  <i class="bi bi-mortarboard"></i>
+                  <span>M.S. CS @ PSU</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Who I Am</h2>
+          <div class="row g-5 mt-2">
+            <div class="col-lg-6">
+              <p class="about-text">
+                I'm a <strong>Computer Science engineer</strong> with a diverse
+                background across enterprise networking, cloud infrastructure,
+                cybersecurity, and software development. Currently pursuing my
+                M.S. in Computer Science at Portland State University, I bring
+                both real-world industry experience and rigorous academic
+                training to everything I build.
+              </p>
+              <p class="about-text">
+                At Infosys Ltd., I spent 2+ years managing mission-critical
+                network infrastructure for
+                <strong>1,000+ global enterprise clients</strong> — configuring
+                Palo Alto firewalls, IPSec VPN tunnels, and automating workflows
+                with Python and Bash, achieving
+                <strong>100% SLA compliance</strong> across EMEA, NAFTA, and
+                APAC regions.
+              </p>
+              <p class="about-text">
+                At Portland State, I've expanded into cloud-native development,
+                data engineering, machine learning, and web development —
+                building production-grade systems with GCP, Docker, Kubernetes,
+                FastAPI, Python, and modern web technologies. I'm driven by the
+                challenge of solving complex problems at the intersection of
+                <strong>security, cloud, and software engineering</strong>.
+              </p>
+              <div class="about-stats">
+                <div class="stat-item">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">1K+</span>
+                  <span class="stat-label">Enterprise Clients</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">100%</span>
+                  <span class="stat-label">SLA Compliance</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="skills-heading">Technical Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-group">
+                  <h4>Network Engineering</h4>
+                  <div class="skill-tags">
+                    <span>TCP/IP</span><span>BGP</span><span>OSPF</span>
+                    <span>IPSec VPN</span><span>MPLS</span><span>SD-WAN</span>
+                    <span>VLANs</span><span>DNS/DHCP</span><span>NAT</span>
+                    <span>QoS</span><span>Subnetting</span><span>LAN</span>
+                    <span>WAN</span><span>CCNA</span
+                    ><span>Routing & Switching</span>
+                  </div>
+                </div>
+                <div class="skill-group">
+                  <h4>Cybersecurity</h4>
+                  <div class="skill-tags">
+                    <span>Palo Alto NGFW</span><span>Zero Trust</span>
+                    <span>IDS/IPS</span><span>SSL/TLS</span><span>PKI</span>
+                    <span>Wireshark</span><span>SIEM</span>
+                    <span>Incident Response</span><span>NIST Framework</span>
+                    <span>Firewall Policy</span>
+                  </div>
+                </div>
+                <div class="skill-group">
+                  <h4>Cloud & DevSecOps</h4>
+                  <div class="skill-tags">
+                    <span>GCP</span><span>AWS</span><span>Azure</span>
+                    <span>Docker</span><span>Kubernetes</span
+                    ><span>Terraform</span> <span>CI/CD</span
+                    ><span>Cloud Run</span><span>IAM</span> <span>VPC</span
+                    ><span>Pub/Sub</span><span>Linux</span>
+                  </div>
+                </div>
+                <div class="skill-group">
+                  <h4>Programming & Automation</h4>
+                  <div class="skill-tags">
+                    <span>Python</span><span>Java</span><span>Bash</span
+                    ><span>FastAPI</span> <span>PostgreSQL</span
+                    ><span>REST APIs</span> <span>ServiceNow</span
+                    ><span>Git</span>
+                  </div>
+                </div>
+                <div class="skill-group">
+                  <h4>Web Development</h4>
+                  <div class="skill-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                    <span>Bootstrap 5</span><span>Node.js</span>
+                    <span>Responsive Design</span><span>Accessibility</span>
+                  </div>
+                </div>
+                <div class="skill-group">
+                  <h4>Frameworks & Standards</h4>
+                  <div class="skill-tags">
+                    <span>NIST CSF</span><span>ITIL</span><span>ISO 27001</span>
+                    <span>SLA Management</span><span>Network Automation</span>
+                    <span>CompTIA Network+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievements Accordion -->
+          <div class="row mt-5">
+            <div class="col-12">
+              <h3 class="skills-heading">Highlights & Achievements</h3>
+              <div class="accordion" id="achievementsAccordion">
+                <div class="accordion-item achieve-item">
+                  <h4 class="accordion-header" id="achieve1">
+                    <button
+                      class="accordion-button achieve-btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseA1"
+                      aria-expanded="true"
+                      aria-controls="collapseA1"
+                    >
+                      <i class="bi bi-shield-check me-2"></i> Enterprise Network
+                      Security
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseA1"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="achieve1"
+                    data-bs-parent="#achievementsAccordion"
+                  >
+                    <div class="accordion-body achieve-body">
+                      At Infosys Ltd., I owned end-to-end network security for
+                      <strong>1,000+ global enterprise clients</strong> spanning
+                      EMEA, NAFTA, and APAC — configuring Palo Alto next-gen
+                      firewalls, IPSec VPN tunnels, and NAT policies with
+                      <strong>zero SLA breaches</strong>. I didn't just keep the
+                      network running — I made it resilient, secure, and
+                      audit-ready for Fortune 500 standards every single day.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item achieve-item">
+                  <h4 class="accordion-header" id="achieve2">
+                    <button
+                      class="accordion-button achieve-btn collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseA2"
+                      aria-expanded="false"
+                      aria-controls="collapseA2"
+                    >
+                      <i class="bi bi-lightning me-2"></i> Process Automation &
+                      Projects
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseA2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="achieve2"
+                    data-bs-parent="#achievementsAccordion"
+                  >
+                    <div class="accordion-body achieve-body">
+                      I automated
+                      <strong>8 mission-critical network workflows</strong>
+                      using Python and Bash at Infosys — cutting turnaround by
+                      <strong>30%</strong> and boosting team output by
+                      <strong>50%</strong>. That same automation mindset drives
+                      every project I build: <br /><br />
+                      <strong>TriMet Data Pipeline</strong> — automated daily
+                      GPS data collection from 222 TriMet buses across 3 global
+                      GCP VMs using Pub/Sub, cron jobs, and systemd services
+                      with zero manual intervention. <br /><br />
+                      <strong>City Explorer AI</strong> — automated cloud
+                      deployment via CI/CD pipelines on Google Cloud Run, with
+                      auto-scaling and zero-downtime deploys. <br /><br />
+                      <strong>ReceiptLens</strong> — automated invoice data
+                      extraction using Google Cloud Vision OCR, eliminating
+                      manual data entry from receipts. <br /><br />
+                      <strong>Netflix Data Analysis</strong> — automated ETL
+                      pipeline cleaning and transforming large datasets using
+                      Python, Pandas, and scikit-learn for ML classification.
+                      <br /><br />
+                      <strong>IRC Chat App</strong> — automated multi-client
+                      TCP/IP socket connections using Python multithreading,
+                      handling 50+ concurrent users without manual session
+                      management.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item achieve-item">
+                  <h4 class="accordion-header" id="achieve3">
+                    <button
+                      class="accordion-button achieve-btn collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseA3"
+                      aria-expanded="false"
+                      aria-controls="collapseA3"
+                    >
+                      <i class="bi bi-mortarboard me-2"></i> Academic Excellence
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseA3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="achieve3"
+                    data-bs-parent="#achievementsAccordion"
+                  >
+                    <div class="accordion-body achieve-body">
+                      Maintaining a <strong>GPA of 3.47/4.0</strong> in M.S.
+                      Computer Science at Portland State University while
+                      building real-world projects in parallel. From
+                      Internetworking Protocols and Computer Security to AI,
+                      Machine Learning, and Data Engineering. Also I completed
+                      my
+                      <strong>B.E. in Information Science</strong>
+                      from Dr Ambedkar Institute of Technology, Bengaluru.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item achieve-item">
+                  <h4 class="accordion-header" id="achieve4">
+                    <button
+                      class="accordion-button achieve-btn collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseA4"
+                      aria-expanded="false"
+                      aria-controls="collapseA4"
+                    >
+                      <i class="bi bi-cloud me-2"></i> Cloud Infrastructure
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseA4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="achieve4"
+                    data-bs-parent="#achievementsAccordion"
+                  >
+                    <div class="accordion-body achieve-body">
+                      I've built and shipped production-grade cloud systems —
+                      from
+                      <strong>City Explorer AI</strong> on Google Cloud Run with
+                      FastAPI and Docker, to a
+                      <strong>TriMet real-time data pipeline</strong>
+                      spanning three global GCP regions using Pub/Sub and
+                      PostgreSQL. I configure VPC networks, IAM policies, CI/CD
+                      pipelines, and auto-scaling — not as theory, but as
+                      deployed, working infrastructure.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item achieve-item">
+                  <h4 class="accordion-header" id="achieve5">
+                    <button
+                      class="accordion-button achieve-btn collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseA5"
+                      aria-expanded="false"
+                      aria-controls="collapseA5"
+                    >
+                      <i class="bi bi-code-slash me-2"></i> Software & Web
+                      Projects
+                    </button>
+                  </h4>
+                  <div
+                    id="collapseA5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="achieve5"
+                    data-bs-parent="#achievementsAccordion"
+                  >
+                    <div class="accordion-body achieve-body">
+                      Beyond networking and cloud, I build full-stack
+                      applications that solve real problems.
+                      <strong>ReceiptLens</strong> uses Google Cloud Vision OCR
+                      to extract invoice data at scale.
+                      <strong>Netflix Data Analysis</strong> applies ML
+                      classification with scikit-learn on real-world datasets.
+                      My <strong>IRC Chat App</strong> implements raw TCP/IP
+                      socket programming with multi-threaded Python. And this
+                      <strong>portfolio itself</strong> is a hand-crafted,
+                      accessible, responsive web app built with HTML, CSS,
+                      Bootstrap 5, and JavaScript — 0 WAVE errors, 0 shortcuts.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="experience-section" id="experience">
+        <div class="container">
+          <div class="section-label">Background</div>
+          <h2 class="section-title">Experience & Education</h2>
+          <div class="exp-edu-grid mt-4">
+            <div class="exp-column">
+              <h3 class="exp-column-title">
+                <i class="bi bi-briefcase"></i> Work Experience
+              </h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <div class="timeline-card-header">
+                      <img
+                        src="images/infosys-logo.jpg"
+                        alt="Infosys logo"
+                        class="company-logo"
+                      />
+                      <div>
+                        <h4 class="timeline-title">Senior Systems Engineer</h4>
+                        <p class="timeline-company">Infosys Ltd.</p>
+                        <span class="timeline-date">Jul 2023 – Jul 2024</span>
+                      </div>
+                    </div>
+                    <p class="timeline-location">
+                      <i class="bi bi-geo-alt"></i> Bengaluru, India · Hybrid
+                    </p>
+                    <ul class="timeline-bullets">
+                      <li>
+                        Led secure network connectivity for 1000+ global
+                        partners across EMEA, NAFTA, APAC.
+                      </li>
+                      <li>
+                        Configured IPSec VPN tunnels, Palo Alto firewall rules,
+                        NAT policies achieving
+                        <strong>100% SLA compliance</strong>.
+                      </li>
+                      <li>
+                        Improved productivity by <strong>50%</strong> and
+                        reduced turnaround by <strong>30%</strong> through
+                        automation.
+                      </li>
+                    </ul>
+                    <div class="timeline-skills">
+                      <span>Palo Alto</span><span>IPSec VPN</span
+                      ><span>ServiceNow</span><span>Network Security</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-card">
+                    <div class="timeline-card-header">
+                      <img
+                        src="images/infosys-logo.jpg"
+                        alt="Infosys logo"
+                        class="company-logo"
+                      />
+                      <div>
+                        <h4 class="timeline-title">Systems Engineer</h4>
+                        <p class="timeline-company">Infosys Ltd.</p>
+                        <span class="timeline-date">Mar 2022 – Jun 2023</span>
+                      </div>
+                    </div>
+                    <p class="timeline-location">
+                      <i class="bi bi-geo-alt"></i> Bengaluru, India · Hybrid
+                    </p>
+                    <ul class="timeline-bullets">
+                      <li>
+                        Supported enterprise network infrastructure for global
+                        environments.
+                      </li>
+                      <li>
+                        Assisted in firewall configuration, VPN validation, and
+                        incident troubleshooting.
+                      </li>
+                    </ul>
+                    <div class="timeline-skills">
+                      <span>Networking</span><span>VPN</span
+                      ><span>Firewall</span><span>TCP/IP</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-column">
+              <h3 class="exp-column-title">
+                <i class="bi bi-mortarboard"></i> Education
+              </h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot edu-dot"></div>
+                  <div class="timeline-card">
+                    <div class="timeline-card-header">
+                      <img
+                        src="images/psu-logo.jpg"
+                        alt="Portland State University logo"
+                        class="company-logo"
+                      />
+                      <div>
+                        <h4 class="timeline-title">
+                          Portland State University
+                        </h4>
+                        <p class="timeline-company">M.S. Computer Science</p>
+                        <span class="timeline-date">Sep 2024 – Dec 2026</span>
+                      </div>
+                    </div>
+                    <p class="timeline-location">
+                      <i class="bi bi-geo-alt"></i> Portland, Oregon · GPA 3.47
+                      / 4.0
+                    </p>
+                    <div class="timeline-skills">
+                      <span>Internetworking Protocols</span
+                      ><span>Computer Security</span> <span>Cloud Systems</span
+                      ><span>AI & Machine Learning</span
+                      ><span>Data Engineering</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot edu-dot"></div>
+                  <div class="timeline-card">
+                    <div class="timeline-card-header">
+                      <img
+                        src="images/drait-logo.jpg"
+                        alt="Dr Ambedkar Institute of Technology logo"
+                        class="company-logo"
+                      />
+                      <div>
+                        <h4 class="timeline-title">
+                          Dr Ambedkar Institute of Technology
+                        </h4>
+                        <p class="timeline-company">B.E. Information Science</p>
+                        <span class="timeline-date">Aug 2017 – Sep 2021</span>
+                      </div>
+                    </div>
+                    <p class="timeline-location">
+                      <i class="bi bi-geo-alt"></i> Bengaluru, India · GPA 3.8 /
+                      5.0
+                    </p>
+                    <div class="timeline-skills">
+                      <span>Data Structures</span><span>Computer Networks</span>
+                      <span>Python</span><span>C/C++</span
+                      ><span>Databases</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects-section" id="projects">
+        <div class="container">
+          <div class="section-label">My Work</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <div
+            class="filter-buttons mt-3"
+            role="group"
+            aria-label="Filter projects by technology"
+          >
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="security">Security</button>
+            <button class="filter-btn" data-filter="networking">
+              Networking
+            </button>
+            <button class="filter-btn" data-filter="web">Web</button>
+          </div>
+          <div class="row g-4 mt-1" id="projectsGrid">
+            <div class="col-lg-4 project-item" data-tags="cloud python">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80"
+                    alt="City Explorer AI project - cloud infrastructure visualization"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/City-explorer-ai"
+                      target="_blank"
+                      aria-label="GitHub repository for City Explorer AI"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon cloud">
+                      <i class="bi bi-cloud-upload"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag cloud-tag">Cloud</span>
+                      <span class="project-tag python-tag">Python</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">City Explorer AI</h3>
+                  <p class="project-subtitle">Cloud-Native DevOps Project</p>
+                  <p class="project-desc">
+                    Cloud-native AI system using FastAPI, Docker, and Google
+                    Cloud Run that converts natural language into real-time
+                    location, weather, and AI-generated summaries using Yelp,
+                    OpenWeather, and Gemini APIs.
+                  </p>
+                  <div class="project-tech">
+                    <span>FastAPI</span><span>Docker</span
+                    ><span>GCP Cloud Run</span><span>Gemini API</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="cloud python">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80"
+                    alt="ReceiptLens project - receipt and invoice processing"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/ReceiptLens-AI-Powered-Receipt-Processing-System"
+                      target="_blank"
+                      aria-label="GitHub repository for ReceiptLens"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon ai">
+                      <i class="bi bi-receipt"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag cloud-tag">Cloud</span>
+                      <span class="project-tag python-tag">Python</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">ReceiptLens</h3>
+                  <p class="project-subtitle">AI-Powered Receipt Processing</p>
+                  <p class="project-desc">
+                    Cloud-based OCR system extracting structured data from
+                    invoices using Google Cloud Vision API, Flask backend, and
+                    PostgreSQL with Docker containerization.
+                  </p>
+                  <div class="project-tech">
+                    <span>Python</span><span>Flask</span><span>GCP Vision</span
+                    ><span>PostgreSQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="cloud python">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=600&q=80"
+                    alt="TriMet BreadCrumb Data Pipeline - public transit data engineering"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/Data-Engineering"
+                      target="_blank"
+                      aria-label="GitHub repository for TriMet Data Pipeline"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon cloud">
+                      <i class="bi bi-bus-front"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag cloud-tag">Cloud</span>
+                      <span class="project-tag python-tag">Python</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">TriMet Data Pipeline</h3>
+                  <p class="project-subtitle">GCP Data Engineering Project</p>
+                  <p class="project-desc">
+                    End-to-end data pipeline for TriMet BreadCrumb GPS data
+                    using GCP Pub/Sub, Python, and PostgreSQL with automated VM
+                    scheduling across three global regions.
+                  </p>
+                  <div class="project-tech">
+                    <span>Python</span><span>GCP Pub/Sub</span
+                    ><span>PostgreSQL</span><span>Automation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="python">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+                    alt="Netflix Data Analysis - machine learning and data visualization"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/Netflix-Data-Analysis"
+                      target="_blank"
+                      aria-label="GitHub repository for Netflix Data Analysis"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon data">
+                      <i class="bi bi-bar-chart-line"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag python-tag">Python</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">Netflix Data Analysis</h3>
+                  <p class="project-subtitle">Python Data Analysis & ML</p>
+                  <p class="project-desc">
+                    Netflix Movies & TV Shows data analysis and ML
+                    classification using Python, pandas, and scikit-learn with
+                    exploratory data analysis on content trends.
+                  </p>
+                  <div class="project-tech">
+                    <span>Python</span><span>Pandas</span
+                    ><span>scikit-learn</span><span>Jupyter</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="security">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=600&q=80"
+                    alt="Linux Security Lab - cybersecurity and CTF walkthrough"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/linux-security-lab"
+                      target="_blank"
+                      aria-label="GitHub repository for Linux Security Lab"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon security">
+                      <i class="bi bi-shield-lock"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag security-tag">Security</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">Linux Security Lab</h3>
+                  <p class="project-subtitle">UltraTech CTF Walkthrough</p>
+                  <p class="project-desc">
+                    Intro to Computer Security final project — UltraTech CTF
+                    walkthrough covering privilege escalation, Linux hardening,
+                    and NIST-aligned remediation documentation.
+                  </p>
+                  <div class="project-tech">
+                    <span>Linux</span><span>CTF</span><span>Shell</span
+                    ><span>NIST</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="networking python">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=600&q=80"
+                    alt="IRC Chat Application - TCP/IP socket programming"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <a
+                      href="https://github.com/VinodhRaju05/IRC-Chat-App"
+                      target="_blank"
+                      aria-label="GitHub repository for IRC Chat Application"
+                      class="project-github-overlay"
+                    >
+                      <i class="bi bi-github"></i> View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon network">
+                      <i class="bi bi-chat-dots"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag network-tag">Networking</span>
+                      <span class="project-tag python-tag">Python</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">IRC Chat Application</h3>
+                  <p class="project-subtitle">TCP/IP Networking Project</p>
+                  <p class="project-desc">
+                    Python IRC chat app with TCP socket programming supporting
+                    multi-client connections, chat rooms, and private messaging
+                    with a multi-threaded server architecture.
+                  </p>
+                  <div class="project-tech">
+                    <span>Python</span><span>TCP/IP</span><span>Sockets</span
+                    ><span>Multithreading</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 project-item" data-tags="web">
+              <div class="project-card">
+                <div class="project-img-wrapper">
+                  <img
+                    src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80"
+                    alt="Personal Portfolio Website - web development project"
+                    class="project-img"
+                  />
+                  <div class="project-img-overlay">
+                    <div class="project-github-overlay no-link">
+                      <i class="bi bi-hourglass-split"></i> Coming Soon
+                    </div>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-icon-row">
+                    <div class="project-icon cloud">
+                      <i class="bi bi-globe"></i>
+                    </div>
+                    <div class="project-tags-row">
+                      <span class="project-tag web-tag">Web</span>
+                    </div>
+                  </div>
+                  <h3 class="project-title">Personal Portfolio</h3>
+                  <p class="project-subtitle">Full Stack Web Development</p>
+                  <p class="project-desc">
+                    Responsive single-page portfolio website built with HTML,
+                    CSS, Bootstrap 5, and JavaScript featuring typing animation,
+                    project filtering, and contact form validation.
+                  </p>
+                  <div class="project-tech">
+                    <span>HTML</span><span>CSS</span><span>Bootstrap</span
+                    ><span>JavaScript</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="no-projects" id="noProjects" style="display: none">
+            No projects found for this filter.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="row g-5 mt-2">
+            <div class="col-lg-4">
+              <div class="contact-info">
+                <h3 class="contact-info-title">Let's Connect</h3>
+                <p class="contact-info-desc">
+                  Whether you have a project idea, a collaboration opportunity,
+                  or just want to connect — I'd love to hear from you!
+                </p>
+                <div class="contact-details">
+                  <div class="contact-detail-item">
+                    <div class="contact-detail-icon">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div>
+                      <p class="contact-detail-label">Email</p>
+                      <a
+                        href="mailto:vinodhreddy058@gmail.com"
+                        class="contact-detail-value"
+                        >vinodhreddy058@gmail.com</a
+                      >
+                    </div>
+                  </div>
+                  <div class="contact-detail-item">
+                    <div class="contact-detail-icon">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div>
+                      <p class="contact-detail-label">Location</p>
+                      <p class="contact-detail-value">Portland, Oregon, US</p>
+                    </div>
+                  </div>
+                  <div class="contact-detail-item">
+                    <div class="contact-detail-icon">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div>
+                      <p class="contact-detail-label">Education</p>
+                      <p class="contact-detail-value">
+                        Portland State University · M.S. CS
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-social">
+                  <a
+                    href="https://www.linkedin.com/in/vinodhraju"
+                    target="_blank"
+                    class="contact-social-link"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                  </a>
+                  <a
+                    href="https://github.com/VinodhRaju05"
+                    target="_blank"
+                    class="contact-social-link"
+                    aria-label="GitHub"
+                  >
+                    <i class="bi bi-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="contact-form-wrapper">
+                <h3 class="contact-form-title">Send a Message</h3>
+                <form id="contactForm" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="contactName" class="form-label"
+                        >Full Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control contact-input"
+                        id="contactName"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Please enter your name.
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="contactEmail" class="form-label"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control contact-input"
+                        id="contactEmail"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Please enter a valid email.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="contactSubject" class="form-label"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control contact-input"
+                        id="contactSubject"
+                        name="subject"
+                        placeholder="Project idea / Collaboration / Just saying hi..."
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Please enter a subject.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="contactMessage" class="form-label"
+                        >Message</label
+                      >
+                      <textarea
+                        class="form-control contact-input"
+                        id="contactMessage"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell me more..."
+                        required
+                      ></textarea>
+                      <div class="invalid-feedback">
+                        Please enter a message.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button
+                        type="submit"
+                        class="btn-main w-100"
+                        id="submitBtn"
+                      >
+                        Send Message <i class="bi bi-send"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <div
+                  class="contact-success"
+                  id="successMessage"
+                  style="display: none"
+                >
+                  <i class="bi bi-check-circle-fill"></i>
+                  <h3>Message Sent!</h3>
+                  <p>Thank you for reaching out. I'll get back to you soon.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <p class="footer-copy">
+            &copy; 2026 Vinodh Raju. All rights reserved.
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/vinodhraju"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/VinodhRaju05"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a href="mailto:vinodhreddy058@gmail.com" aria-label="Email"
+              ><i class="bi bi-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
