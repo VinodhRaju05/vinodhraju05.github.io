@@ -1439,6 +1439,7 @@ a.contact-detail-value:hover {
   }
 }
 
+/* Network grid background animation */
 #networkCanvas {
   position: absolute;
   top: 0;
