@@ -44,7 +44,7 @@ Personal portfolio website showcasing my background as a Network & Security Engi
 
 ## Accessibility
 
-- WAVE Score: 9.9/10
+- WAVE Score: 10/10
 - 0 errors, 0 contrast errors
 - ARIA labels on all interactive elements
 - Semantic HTML structure
