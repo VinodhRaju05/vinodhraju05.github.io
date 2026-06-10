@@ -1,10 +1,20 @@
 # Vinodh Raju | Personal Portfolio
 
-Live Site: [https://VinodhRaju.github.io](https://VinodhRaju.github.io)
+Live Site: https://vinodhraju05.github.io  
+GitHub Repo: https://github.com/VinodhRaju05/vinodhraju05.github.io
 
 ## About
 
-Personal portfolio website showcasing my background as a Network & Security Engineer and M.S. Computer Science candidate at Portland State University.
+Personal portfolio website showcasing my background as a Network & Security
+Engineer and M.S. Computer Science candidate at Portland State University.
+
+## How to Run Locally
+
+1. Clone the repo: `git clone https://github.com/VinodhRaju05/vinodhraju05.github.io.git`
+2. Open the folder in VS Code
+3. Install Live Server extension if not already installed
+4. Right-click index.html and select Open with Live Server
+5. The site will open at http://127.0.0.1:5500/index.html
 
 ## Built With
 
@@ -12,6 +22,17 @@ Personal portfolio website showcasing my background as a Network & Security Engi
 - JavaScript (ES6+)
 - Bootstrap 5
 - EmailJS (contact form)
+
+## Outside Libraries & Frameworks
+
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/) - Grid system, navbar, accordion component
+- [Bootstrap Icons](https://icons.getbootstrap.com/) - Icon library
+- [Google Fonts](https://fonts.google.com/) - Playfair Display and DM Sans fonts
+- [EmailJS](https://www.emailjs.com/docs/) - Contact form email service
+- [Unsplash](https://unsplash.com/) - Free stock photos for project cards
+- [MDN Web Docs - IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver) - Scroll animations
+- [MDN Web Docs - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) - Network grid animation
+- [WAVE](https://wave.webaim.org/) - Accessibility testing tool
 
 ## Features
 
