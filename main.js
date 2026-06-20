@@ -130,8 +130,6 @@ if (typedText) {
   const roles = [
     "Network & Security Engineer",
     "Cloud & DevOps Engineer",
-    "Full Stack Developer",
-    "Data Engineer",
     "M.S. CS @ Portland State",
   ];
 
