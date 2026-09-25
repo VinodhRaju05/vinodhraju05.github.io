@@ -20,11 +20,6 @@ Claude Desktop (Windows), Connected
 
 
 
-
-
-
-
-
 Main · JS
 // EmailJS initialization
 emailjs.init("dxAW-OuhKi6pJ2GfY");
